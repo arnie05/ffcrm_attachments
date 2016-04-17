@@ -1,4 +1,4 @@
-$:.push File.expand_path("lib", __FILE__)
+$:.push File.expand_path("lib/", __FILE__)
 
 # Maintain your gem's version:
 require "ffcrm_attachments/version"
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Summary of FfcrmAttachments."
   s.description = "Add file attachments to CRM"
 
-  s.files = Dir["{app,config,db,lib}*"] + ["LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib}*/"] + ["LICENSE", "Rakefile", "README.md"]
 
   s.test_files = Dir["spec*"]
 
